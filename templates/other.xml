@@ -1,0 +1,10 @@
+<templateSet group="other">
+  <template name="todo" value="//TODO $NAME$ $DATE$ #$TICKET$" description="Adds a TODO with Username and Date" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="user()" defaultValue="" alwaysStopAt="false" />
+    <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="false" />
+    <variable name="TICKET" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
