@@ -17,6 +17,12 @@
       <mask>*.ts</mask>
       <mask>*.java</mask>
       <mask>*.gradle</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.s</mask>
+      <mask>*.sc</mask>
+      <mask>*.scs</mask>
+      <mask>*.scss</mask>
     </recentFileMasks>
   </component>
 </application>
